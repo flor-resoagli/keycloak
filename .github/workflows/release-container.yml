@@ -8,7 +8,7 @@
 
   jobs:
     publish:
-      if: github.repository == 'keycloak/keycloak-containers'
+      if: github.repository == 'keycloak'
       runs-on: ubuntu-latest
       strategy:
         matrix:
